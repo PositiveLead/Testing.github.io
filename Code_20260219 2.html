@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>緣來是你 - 男女配對交友賺錢</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+  body{background:#121227;color:#fff;padding:20px;}
+  .container{max-width:500px;margin:0 auto;}
+  .logo{text-align:center;font-size:32px;color:#ff5e93;margin:20px 0;}
+  .card{background:#1c1c3a;padding:25px;border-radius:20px;margin:15px 0;text-align:center;}
+  .btn{background:linear-gradient(90deg,#ff5e93,#7a6dff);color:#fff;border:none;padding:15px 25px;border-radius:50px;font-size:16px;width:100%;margin-top:10px;cursor:pointer;}
+  .price{font-size:22px;color:#ff5e93;font-weight:bold;margin:10px 0;}
+  .contact{font-size:20px;color:#7a6dff;font-weight:bold;margin-top:10px;}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">緣來是你</div>
+  <p style="text-align:center; margin-bottom:20px;">他TA星球模式｜男女配對｜聊天賺錢</p>
+
+  <div class="card">
+    <h3>立即配對異性</h3>
+    <button class="btn" onclick="alert('配對成功！請充值解鎖聊天')">開始配對</button>
+  </div>
+
+  <div class="card">
+    <h3>緣分月卡 VIP</h3>
+    <p>無限匹配 + 查看照片</p>
+    <div class="price">¥38</div>
+    <button class="btn" onclick="buy('緣分月卡',38)">立即購買</button>
+  </div>
+
+  <div class="card">
+    <h3>聊天幣 100</h3>
+    <p>解鎖私聊 / 語音</p>
+    <div class="price">¥20</div>
+    <button class="btn" onclick="buy('聊天幣100',20)">立即購買</button>
+  </div>
+
+  <div class="card">
+    <h3>至尊 VIP 終身</h3>
+    <p>全部功能解鎖</p>
+    <div class="price">¥98</div>
+    <button class="btn" onclick="buy('至尊VIP',98)">立即開通</button>
+  </div>
+
+  <div class="card">
+    <h3>💬 客服充值專線</h3>
+    <p>支付後立即開通</p>
+    <div class="contact">微信：initialsnyc</div>
+  </div>
+</div>
+
+<script>
+function buy(name, price) {
+  alert('商品：' + name + '\n價格：¥' + price + '\n\n請加微信：initialsnyc 付款');
+}
+</script>
+
+</body>
+</html>
